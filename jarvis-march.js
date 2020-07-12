@@ -4,8 +4,8 @@ let indexOfFirstPoint = 0;
 let startData = generateData(10)
 let result = generateConvexHull(startData);
 
-console.log("Data:" + startData );
-console.log("Convex Hull" + result );
+console.log("Data:" + JSON. stringify(startData) );
+console.log("Convex Hull" + JSON. stringify(result) );
 
 function generateData(numberOfPoints) {
 	var data = [];
